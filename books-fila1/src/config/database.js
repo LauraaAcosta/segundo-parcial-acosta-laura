@@ -1,5 +1,5 @@
 import express from 'express'
-import characterRoutes from "./src/routes/book.routes.js"
+import bookRoutes from "./src/routes/book.routes.js"
 import { initDB } from './src/config/database.js';
 import sequelize from './src/config/database.js';
 import dotenv from 'dotenv'; 
